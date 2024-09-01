@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43ba070c59a457f802b87ed8d1d7c2b3",
+    "content-hash": "a976ed2ab060bb8b7956f8627419d0c0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1492,6 +1492,62 @@
                 "source": "https://github.com/drupal/core-recommended/tree/10.3.2"
             },
             "time": "2024-08-08T09:23:57+00:00"
+        },
+        {
+            "name": "drupal/yg_photography",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/yg_photography.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/yg_photography-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "3872a9db071b793b16bbec57fb3810fdb46432e5"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1715080348",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dhivyarajasekaran",
+                    "homepage": "https://www.drupal.org/user/3794079"
+                },
+                {
+                    "name": "Jeya sundhar",
+                    "homepage": "https://www.drupal.org/user/3586597"
+                },
+                {
+                    "name": "Karthikeyan R",
+                    "homepage": "https://www.drupal.org/user/3306805"
+                },
+                {
+                    "name": "Pravin Ajaaz",
+                    "homepage": "https://www.drupal.org/user/2910049"
+                }
+            ],
+            "description": "YG Photography is a Responsive Drupal theme.",
+            "homepage": "https://www.drupal.org/project/yg_photography",
+            "support": {
+                "source": "https://git.drupalcode.org/project/yg_photography"
+            }
         },
         {
             "name": "drush/drush",
