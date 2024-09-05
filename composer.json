@@ -27,7 +27,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/pathauto": "^1.13",
         "drupal/views_data_export": "^1.4",
-        "drupal/jwt": "^2.0",
+        "drupal/jwt": "^2.1",
         "drupal/rest_api_authentication": "^2.0",
         "drupal/restui": "^1.22",
         "drupal/getjwtonlogin": "^2.0"
