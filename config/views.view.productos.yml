@@ -7,6 +7,7 @@ dependencies:
     - field.storage.node.field_image
     - field.storage.node.field_tags
     - node.type.article
+    - user.role.authenticated
   module:
     - image
     - node
@@ -312,9 +313,10 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access content'
+          role:
+            authenticated: authenticated
       cache:
         type: tag
         options: {  }
@@ -371,7 +373,7 @@ display:
         - request_format
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'
@@ -418,7 +420,7 @@ display:
         - 'languages:language_interface'
         - request_format
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'
