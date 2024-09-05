@@ -409,6 +409,8 @@ display:
               raw_output: false
       display_extenders: {  }
       path: api/v1/products
+      auth:
+        - jwt_auth
     cache_metadata:
       max-age: -1
       contexts:
