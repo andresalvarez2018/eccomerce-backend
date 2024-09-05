@@ -412,7 +412,7 @@ display:
       display_extenders: {  }
       path: api/v1/products
       auth:
-        - jwt_auth
+        - basic_auth
     cache_metadata:
       max-age: -1
       contexts:
