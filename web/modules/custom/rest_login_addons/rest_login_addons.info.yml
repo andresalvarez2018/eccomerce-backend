@@ -1,0 +1,5 @@
+name: 'rest login addons'
+type: module
+description: 'extend api login'
+package: Custom
+core_version_requirement: ^10 || ^11
