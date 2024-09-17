@@ -1,0 +1,8 @@
+rest_login_addons.register:
+  path: '/api/v1/user/register'
+  defaults:
+    _controller: '\Drupal\rest_login_addons\Controller\RestRegisterController::register'
+    _title: 'User Registration'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
