@@ -5,4 +5,7 @@ rest_login_addons.register:
     _title: 'User Registration'
   methods: [POST]
   requirements:
-    _permission: 'access content'
+    _access: 'TRUE'
+  options:
+    _auth:
+      - basic_auth
